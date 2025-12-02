@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.wrapper {
+    overflow-y: scroll;
+    width: 200px;
+    height: 220px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.spacer {
+    position: absolute;
+    transform: translateY(0px);
+    width: 1px;
+}
+
+.items {
+    position: absolute;
+    transform: translateY(0px);
+}
+
+.item {
+    height: 20px;
+    background-color: lightblue;
+    margin-bottom: 2px;
+}
